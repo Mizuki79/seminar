@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  background-color: #f2efe9;
+  overflow: hidden;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.shape {
+  position: absolute;
+  opacity: 0.9;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #111;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #d22a1d;
+  border-radius: 50%;
+}
+
+.rect {
+  width: 160px;
+  height: 40px;
+  background-color: #aaa;
+}
+
+.line {
+  width: 4px;
+  height: 100px;
+  background-color: #000;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+  border-bottom: 80px solid #d22a1d;
+}
+
+.small {
+  transform: scale(0.5);
+}
+
+.horizontal {
+  width: 200px;
+  height: 20px;
+}
+
+.short {
+  height: 60px;
+}
